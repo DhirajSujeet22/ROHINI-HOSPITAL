@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- title -->
+    <title>Rohini Hospital - Home </title>
+    <!-- main css file  -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <!-- bootsrtap css file  -->
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <!-- favicon  -->
+    <link rel="icon" href="assets/images/favicon.png">
+    <!-- bootsrap icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+
+<body>
+    <!-- home main header  -->
+    <header class="home-main-header">
+        <nav class="home-main-nav">
+            <div class="nav-leftside">
+                <img src="assets/images/rohini-hospital.png" alt="">
+            </div>
+            <div class="nav-rightside">
+                <div class="nav-rightside-ul">
+                    <li><button type="button" class="btn btn-primary">Home</button></li>
+                    <li><button type="button" class="btn btn-primary">Exclude Hospital</button></li>
+                    <li><button type="button" class="btn btn-primary">Contact us </button></li>
+                    <li><button type="button" class="btn btn3 btn-primary">How To Registor </button></li>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- marquee tags  -->
+    <div class="container-fluid  marqee-main">
+        <div class="row align-items-center">
+            <div class="col-2 latest-new-img">
+                <img src="assets/images/latest-new--removebg-preview.png" class="img-fluid" width="150" alt="">
+            </div>
+            <div class="col-10 marquee-box">
+                <marquee behavior="" direction="">
+
+                    <span>
+                        <img src="assets/images/new-icon-smal.png" class="img-fluid" width="30" alt="">
+                    </span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, modi. Nam totam fugit porro
+                    at autem aliquid architecto eos molestiae?
+
+                    <span>
+                        <img src="assets/images/new-icon-smal.png" class="img-fluid" width="30" alt="">
+                    </span>
+                </marquee>
+            </div>
+        </div>
+
+    </div>
+    <!-- home main banner  -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 p-0 home-main-banner">
+                <img src="assets/images/DON'T FORGET TO (1).png" class="img-fluid" alt="">
+
+            </div>
+        </div>
+    </div>
+
+    <!-- home login section -->
+    <section class="home_main_login">
+        <div class="container">
+            <div class="row home_main_login_row">
+                <div class="col-md-8 leftisde-links-box">
+                    <ol class="leftside-links-box-ul">
+
+                        <li>
+                            <a href="#">https://rohini.iib.gov.in/</a>
+                        </li>
+                        <li>
+                            <a href="#">https://irdai.gov.in/list-of-general-insurers</a>
+                        </li>
+                        <li>
+                            <a href="#">https://irdai.gov.in/list-of-tpas</a>
+                        </li>
+                    </ol>
+                </div>
+                <div class="col-md-4 rightside-login-box">
+
+                    <div class="main-login-box">
+                        <div class="main-top-btns">
+                            <ul class="main-top-btns-ul">
+                                <li><button type="button" class="btn btn-primary">TPA/INSURANCE LOGIN</button></li>
+                                <li><button type="button" class="btn btn-primary">HOSPITAL LOGIN</button></li>
+                            </ul>
+                        </div>
+                        <form action="">
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control input__" id="floatingInput"
+                                    placeholder="name@example.com">
+                                <label for="floatingInput"> <span>
+                                        <i class="bi bi-person-fill"></i>
+                                    </span>Email address Provided </label>
+                            </div>
+                            <div class="form-floating">
+                                <input type="password" class="form-control" id="floatingPassword"
+                                    placeholder="Password">
+                                <label for="floatingPassword">
+                                    <span>
+                                        <i class="bi bi-file-earmark-lock-fill"></i>
+                                    </span>
+                                    Password</label>
+                            </div>
+                            <div class="captcha-box">
+                                <input class="form-control" type="text" placeholder="Captcha"
+                                    aria-label="default input example">
+                                <input class="form-control " disabled type="text" placeholder="BUJDNSKLH"
+                                    aria-label="default input example">
+                                <div class="refresh-btn">
+                                    <span>
+                                        <i class="fa-solid fa-arrows-rotate"></i>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="reset-password">
+                                <ul class="reset-password-ul">
+                                    <li> <a href="#">Click Here to Reset password </a></li>
+                                    <li><button type="button" class="btn btn-primary sign-in-btn">Sign In</button></li>
+                                </ul>
+                            </div>
+                            <div class="new-registor-with-box">
+                                <button type="button" class="btn btn-primary">New Registor With Us </button>
+                            </div>
+
+
+
+                        </form>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <!-- main seraching box  -->
+    <section class="main-searching-box">
+        <div class="container">
+            <div class="row searching-box-main-row">
+                <div class="col-md-5 searching-box-firt-left">
+                    <label for="hospital-search">SEARCH HOSPITAL NAME</label>
+                    <input type="text" id="hospital-search" name="hospital-search" placeholder="Enter hospital name"
+                        class="hospital-search">
+
+                </div>
+                <div class="col-md-7 searching-box-first-right">
+                    <label for="advanced-search">Advanced Search</label>
+                    <span>
+                        <input type="text" id="advanced-search" name="advanced-search"
+                            placeholder="PINCODE/ DISTRICT/ STATE/ EXCLUDED TPA NAME / INSURANCE COMPANY NAME"
+                            class="advanced-search">
+                    </span>
+                </div>
+            </div>
+
+        </div>
+        <div class="container-fluid">
+            <div class="row main-list-row">
+                <div class="col-12 p-0">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th scope="col" class="main-table-column-heading">Sr .No </th>
+                                <th scope="col" class="main-table-column-heading">Hospital Name</th>
+                                <th scope="col" class="main-table-column-heading">Contact Number</th>
+                                <th scope="col" class="main-table-column-heading">Email ID</th>
+                                <th scope="col" class="main-table-column-heading">Address</th>
+                                <th scope="col" class="main-table-column-heading">Pincode</th>
+                                <th scope="col" class="main-table-column-heading">District</th>
+                                <th scope="col" class="main-table-column-heading">State</th>
+                                <th scope="col" class="main-table-column-heading">Excluded TPA/Insurance</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">4</th>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">5</th>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">6</th>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">7</th>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">8</th>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+            <div class="row next-or-prev">
+                <div class="col-md-6">
+                    <ul class="next-or-prev-left-ul">
+                        <li> <button type="button" class="btn ">Page Number</button> </li>
+                        <li><button type="button" class="btn">1.2.3.4.5.6.7.8…………….</button></li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <ul class="next-or-prev-right-ul">
+                        <li>
+                            <button type="button" class="btn ">PRE<<</button>
+                        </li>
+                        <li><button type="button" class="btn">>>NEXT...</button></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+     <footer class="home-main-footer">
+        <div class="container-fluid">
+            <div class="row ">
+                <!-- first column  -->
+                <div class="col  footer-main-column footer-first-column ">
+                    <ul>
+                        <li>
+                            <img src="assets/images/download-removebg-preview.png" alt="">
+                        </li>
+                        <li>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed unde quis a assumenda perspiciatis officia.
+                        </li>
+                        <li>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt quos saepe enim ducimus commodi nihil, fugiat 
+                        </li>
+                        <li>
+                            Follow us 
+                        </li>
+                        <li></li>
+                    </ul>
+                </div>
+                <!-- second column  -->
+                <div class="col footer-main-column">
+                    <ul>
+                        <li class="footer-main-column-first-li">
+                           <a href="#">Quik Links </a>
+                        </li>
+                        <li>
+                             <a href="#">Career</a>
+                        </li>
+                        <li>
+                             <a href="#">Tender  </a>
+                        </li>
+                        <li>
+                             <a href="#">Related links  </a>
+                        </li>
+                        <li>
+                             <a href="#">Ebooks </a>
+                        </li>
+                        <li>
+                             <a href="#">Archive </a>
+                        </li>
+                        <li>
+                             <a href="#">Sitemap  </a>
+                        </li>
+                        <li>
+                             <a href="#">Help  </a>
+                        </li>
+                        <li>
+                             <a href="#">Push Notification  </a>
+                        </li>
+                        <!-- <li>
+                             <a href="#">Ebooks </a>
+                        </li> -->
+                    </ul>
+                </div>
+                <!-- third column  -->
+                <div class="col footer-main-column footer-third-column">
+                    <ul>
+                        <li class="footer-main-column-first-li">
+                           <a href="#">E Commerce & important Links  </a>
+                        </li>
+                        <li>
+                             <a href="#">Career</a>
+                        </li>
+                        <li>
+                             <a href="#">Tender  </a>
+                        </li>
+                        <li>
+                             <a href="#">Related links  </a>
+                        </li>
+                        <li>
+                             <a href="#">Ebooks </a>
+                        </li>
+                        <li>
+                             <a href="#">Archive </a>
+                        </li>
+                        <li>
+                             <a href="#">Sitemap  </a>
+                        </li>
+                        <li>
+                             <a href="#">Help  </a>
+                        </li>
+                        <li>
+                             <a href="#">Push Notification  </a>
+                        </li>
+                        <!-- <li>
+                             <a href="#">Ebooks </a>
+                        </li> -->
+                    </ul>
+                </div>
+                <!-- forth column  -->
+                <div class="col footer-main-column">
+                    <ul>
+                        <li class="footer-main-column-first-li">
+                           <a href="#">IRDAI Head Office  </a>
+                        </li>
+                        <li>
+                             <a href="#">Career</a>
+                        </li>
+                        <li>
+                             <a href="#">Tender  </a>
+                        </li>
+                        <li>
+                             <a href="#">Related links  </a>
+                        </li>
+                        <li>
+                             <a href="#">Ebooks </a>
+                        </li>
+                        <li>
+                             <a href="#">Archive </a>
+                        </li>
+                        <li>
+                             <a href="#">Sitemap  </a>
+                        </li>
+                        <li>
+                             <a href="#">Help  </a>
+                        </li>
+                        <li>
+                             <a href="#">Push Notification  </a>
+                        </li>
+                        <!-- <li>
+                             <a href="#">Ebooks </a>
+                        </li> -->
+                    </ul>
+                </div>
+                <!-- fifth column n -->
+                <div class="col footer-main-column">
+                    <ul>
+                        <li class="footer-main-column-first-li">
+                           <a href="#">IRDAI Regional office </a>
+                        </li>
+                        <li>
+                             <a href="#">Career</a>
+                        </li>
+                        <li>
+                             <a href="#">Tender  </a>
+                        </li>
+                        <li>
+                             <a href="#">Related links  </a>
+                        </li>
+                        <li>
+                             <a href="#">Ebooks </a>
+                        </li>
+                        <li>
+                             <a href="#">Archive </a>
+                        </li>
+                        <li>
+                             <a href="#">Sitemap  </a>
+                        </li>
+                        <li>
+                             <a href="#">Help  </a>
+                        </li>
+                        <li>
+                             <a href="#">Push Notification  </a>
+                        </li>
+                        <!-- <li>
+                             <a href="#">Ebooks </a>
+                        </li> -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+      
+     </footer>
+     <div class="copyright-line  text-center">
+        <p class="mb-0">&copy; 2024 Rohini Hospital. Designed and developed by Robovolt Software Tech Pvt. Ltd. All rights reserved.</p>
+    </div>
+    <!-- bootsrap js file  -->
+    <script src="assets/js/bootsrtap.js"></script>
+    <!-- main js file  -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
