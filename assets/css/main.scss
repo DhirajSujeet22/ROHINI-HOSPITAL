@@ -292,3 +292,104 @@ body{
     color: white;
     padding: 0.2rem;
 }
+
+// media query syntaxs  
+@media only screen and (max-width:576px){
+    .home-main-header{
+        .home-main-nav{
+            .nav-rightside{
+                display: none;
+            }
+        }
+        .nav-rightside-for-mobile{
+            i{
+                font-size: 20px;
+            }
+        }
+
+    }
+    .main-searching-box{
+        .main-list-row{
+            table{
+                overflow-x: scroll;
+            }
+        }
+    }
+    .home_main_login .home_main_login_row {
+        padding: 1rem;
+    }
+    .home_main_login .home_main_login_row .leftisde-links-box {
+        padding: 0;
+    }
+    .home_main_login .home_main_login_row .leftisde-links-box .leftside-links-box-ul li{
+        font-size: 13px;
+    }
+    .marqee-main{
+        background-color: white;
+       
+        .latest-new-img{
+            position: relative;
+            z-index: 99;
+            padding: 0;
+            img{
+                min-width: 120px;
+                background-color: white;
+              
+            }
+        }
+    }
+    .home_main_login .home_main_login_row .rightside-login-box .main-login-box .reset-password .reset-password-ul{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .searching-box-main-row{
+        text-align: center;
+        .searching-box-firt-left{
+            padding: 0.5rem;
+            label{
+                font-size: 17px;
+                padding: 0.3rem;
+                padding-top: 0;
+            }
+            .hospital-search{
+                width: 100%;
+                margin-left: 0rem !important;
+            }
+        }
+        .searching-box-first-right{
+            text-align: center !important;
+            padding: 0.5rem;
+            label{
+                font-size: 17px;
+                padding: 0.3rem;
+                padding-top: 0;
+            }
+            .advanced-search{
+                width: 100% !important;
+                margin-left: 0rem !important;
+            }
+        }
+    } 
+    .main-searching-box .main-list-row .main-table-column-heading{
+        padding: 0;
+        min-width: 7rem;
+        font-size: 12px;
+       
+    }
+    
+.main-searching-box .next-or-prev .next-or-prev-left-ul{
+    gap: 0rem;
+    align-items: center;
+    padding-left: 0;
+    justify-content: space-between;
+
+    button{
+        padding: 0;
+    }
+}
+}
+@media only screen and (min-width:576px){
+    .nav-rightside-for-mobile{
+        display: none;
+    }
+}
