@@ -39,8 +39,47 @@
                     <li><button type="button" class="btn btn3 btn-primary">How To Registor </button></li>
                 </div>
             </div>
+            <!-- mobile view bars  -->
             <div class="nav-rightside-for-mobile">
-                <i class="bi bi-list"></i>
+                <i class="bi bi-list" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">  </i>
+
+                  
+                    <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop"
+                        aria-labelledby="offcanvasTopLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasTopLabel">
+                                <!-- main logo for offcanvas  -->
+                                 <img src="assets/images/rohini-hospital.png" class="img-fluid" width="150px" alt="">
+                            </h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                           <ul class="offcanvas-body-main-ul">
+                            <li><a href="#home">Home </a></li>
+                            <li><a href="#Exclude hospital">Exclude Hospital </a></li>
+                            <li><a href="#contactus">Contact Us</a></li>
+                            <li><a href="#Newriegistor">New Registor with Us </a></li>
+                            <li><a href="#How to Registor">How To Registor </a></li>
+                            <li><a href="#Hospital request">Hospital Request </a></li>
+                           </ul>
+                           <ul class="offcanvas-body-main-ul-2">
+                            <li>
+                                <a href="#login"><button type="button" class="btn btn-outline-primary">Sign in</button></a>
+                            </li>
+                            <li><a href="#regit"><button type="button" class="btn btn-outline-primary">Registor Now </button></a></li>
+                           </ul>
+                           <div class="request-a-call-bk">
+                            <button type="button" class="btn btn-outline-primary">Request a Call Back
+                                <span><i class="bi bi-telephone"></i></span>
+                            </button>
+                           </div>
+                        </div>
+                    </div>
+
+              
+
             </div>
         </nav>
     </header>
@@ -66,7 +105,7 @@
         </div>
 
     </div>
-   
+
 
     <!-- home login section -->
     <section class="home_main_login">
@@ -75,10 +114,10 @@
                 <div class="col-md-8 leftisde-links-box">
                     <p>
                         Best <br>
-                      <span>
-                        TPA / Insurance 
-                      </span>
-                        Provider 
+                        <span>
+                            TPA / Insurance
+                        </span>
+                        Provider
                     </p>
                     <ol class="leftside-links-box-ul">
 
@@ -99,31 +138,35 @@
                         <div class="main-top-btns">
                             <ul class="main-top-btns-ul">
                                 <li>
-                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#tpaModal">
+                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="#tpaModal">
                                         TPA/INSURANCE LOGIN
                                     </button>
                                 </li>
-                                
+
                                 <!-- Modal Structure -->
-                                <div class="modal fade" id="tpaModal" tabindex="-1" aria-labelledby="tpaModalLabel" aria-hidden="true">
+                                <div class="modal fade" id="tpaModal" tabindex="-1" aria-labelledby="tpaModalLabel"
+                                    aria-hidden="true">
                                     <div class="modal-dialog modal-fullscreen-lg-down">
                                         <div class="modal-content">
                                             <div class="modal-header">
                                                 <h5 class="modal-title" id="tpaModalLabel">TPA/Insurance Login</h5>
-                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
                                             </div>
                                             <div class="modal-body">
                                                 <!-- Your login form or content goes here -->
                                                 <p>Login form goes here.</p>
                                             </div>
                                             <div class="modal-footer">
-                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Close</button>
                                                 <button type="button" class="btn btn-primary">Submit</button>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                
+
                                 <li><button type="button" class="btn btn-primary">HOSPITAL REQUEST </button></li>
                             </ul>
                         </div>
@@ -162,36 +205,47 @@
                                 </ul>
                             </div>
                             <div class="new-registor-with-box">
-                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#registerModal">
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                    data-bs-target="#registerModal">
                                     New Register With Us
                                 </button>
                             </div>
-                            
+
                             <!-- Modal Structure -->
-                            <div class="modal fade" id="registerModal" tabindex="-1" aria-labelledby="registerModalLabel" aria-hidden="true">
+                            <div class="modal fade" id="registerModal" tabindex="-1"
+                                aria-labelledby="registerModalLabel" aria-hidden="true">
                                 <div class="modal-dialog modal-fullscreen-sm-down pop-up-main">
                                     <div class="modal-content">
                                         <div class="modal-header">
                                             <h5 class="modal-title" id="registerModalLabel">Register With Us</h5>
-                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body pop-up-body">
-                                            <input class="form-control form-control-sm " type="text" placeholder="Name " aria-label=".form-control-sm example">
-                                            <input class="form-control form-control-sm " type="text" placeholder="Contact No " aria-label=".form-control-sm example">
-                                            <input class="form-control form-control-sm " type="text" placeholder="Email " aria-label=".form-control-sm example">
-                                            <input class="form-control form-control-sm " type="text" placeholder="Hospital Name " aria-label=".form-control-sm example">
-                                            <input class="form-control form-control-sm " type="text" placeholder="Company Name " aria-label=".form-control-sm example">
-                                            <input class="form-control form-control-sm " type="text" placeholder="Create  Password " aria-label=".form-control-sm example">
-                                            <input class="form-control form-control-sm " type="text" placeholder="Confirm Password  " aria-label=".form-control-sm example">
+                                            <input class="form-control form-control-sm " type="text" placeholder="Name "
+                                                aria-label=".form-control-sm example">
+                                            <input class="form-control form-control-sm " type="text"
+                                                placeholder="Contact No " aria-label=".form-control-sm example">
+                                            <input class="form-control form-control-sm " type="text"
+                                                placeholder="Email " aria-label=".form-control-sm example">
+                                            <input class="form-control form-control-sm " type="text"
+                                                placeholder="Hospital Name " aria-label=".form-control-sm example">
+                                            <input class="form-control form-control-sm " type="text"
+                                                placeholder="Company Name " aria-label=".form-control-sm example">
+                                            <input class="form-control form-control-sm " type="text"
+                                                placeholder="Create  Password " aria-label=".form-control-sm example">
+                                            <input class="form-control form-control-sm " type="text"
+                                                placeholder="Confirm Password  " aria-label=".form-control-sm example">
                                         </div>
                                         <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
                                             <button type="button" class="btn btn-primary">Submit</button>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            
+
 
 
 
@@ -227,7 +281,7 @@
         <div class="container-fluid">
             <div class="row main-list-row">
                 <div class="col-12 p-0">
-                    <table class="table table-striped">
+                    <table class="table table-striped table-responsive">
                         <thead>
                             <tr>
                                 <th scope="col" class="main-table-column-heading">Sr .No </th>
@@ -329,18 +383,17 @@
                 <div class="col-md-6">
                     <ul class="next-or-prev-left-ul">
                         <li> <select class="form-select form-select-sm" aria-label="Small select example">
-                            <option >Page Number ...</option>
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="1">4</option>
-                            <option value="2">5</option>
-                            <option value="3">6</option>
-                            <option value="1">7</option>
-                            <option value="2">8</option>
-                            <option value="3">9</option>
-                          </select></li>
-                          <ul class="pagination">
+                                <option>Pages ...</option>
+                                <option value="1">5</option>
+                                <option value="2">10</option>
+                                <option value="3">15</option>
+                                <option value="1">20</option>
+                                <option value="2">25</option>
+                                <option value="3">30</option>
+                                <option value="1">35</option>
+                                <option value="2">40</option>
+                            </select></li>
+                        <ul class="pagination">
                             <li><button type="button" class="btn">1</button></li>
                             <li><button type="button" class="btn">2</button></li>
                             <li><button type="button" class="btn">3</button></li>
@@ -352,13 +405,13 @@
                             <li><button type="button" class="btn">...</button></li>
                             <li><button type="button" class="btn">Next</button></li>
                         </ul>
-                        
+
                     </ul>
                 </div>
                 <div class="col-md-6">
                     <ul class="next-or-prev-right-ul">
                         <li>
-                            <button type="button" class="btn ">PRE<<</button>
+                            <button type="button" class="btn "><span>PRE<< </span>      </button>
                         </li>
                         <!-- <li><button type="button" class="btn">>>NEXT...</button></li> -->
                     </ul>
@@ -368,7 +421,7 @@
     </section>
 
     <!-- footer -->
-     <footer class="home-main-footer">
+    <footer class="home-main-footer">
         <div class="container-fluid">
             <div class="row ">
                 <!-- first column  -->
@@ -378,13 +431,15 @@
                             <img src="assets/images/download-removebg-preview.png" alt="">
                         </li>
                         <li>
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed unde quis a assumenda perspiciatis officia.
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed unde quis a assumenda
+                            perspiciatis officia.
                         </li>
                         <li>
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt quos saepe enim ducimus commodi nihil, fugiat 
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt quos saepe enim ducimus
+                            commodi nihil, fugiat
                         </li>
                         <li>
-                            Follow us 
+                            Follow us
                         </li>
                         <li></li>
                     </ul>
@@ -393,31 +448,31 @@
                 <div class="col footer-main-column">
                     <ul>
                         <li class="footer-main-column-first-li">
-                           <a href="#">Quik Links </a>
+                            <a href="#">Quik Links </a>
                         </li>
                         <li>
-                             <a href="#">Career</a>
+                            <a href="#">Career</a>
                         </li>
                         <li>
-                             <a href="#">Tender  </a>
+                            <a href="#">Tender </a>
                         </li>
                         <li>
-                             <a href="#">Related links  </a>
+                            <a href="#">Related links </a>
                         </li>
                         <li>
-                             <a href="#">Ebooks </a>
+                            <a href="#">Ebooks </a>
                         </li>
                         <li>
-                             <a href="#">Archive </a>
+                            <a href="#">Archive </a>
                         </li>
                         <li>
-                             <a href="#">Sitemap  </a>
+                            <a href="#">Sitemap </a>
                         </li>
                         <li>
-                             <a href="#">Help  </a>
+                            <a href="#">Help </a>
                         </li>
                         <li>
-                             <a href="#">Push Notification  </a>
+                            <a href="#">Push Notification </a>
                         </li>
                         <!-- <li>
                              <a href="#">Ebooks </a>
@@ -428,31 +483,31 @@
                 <div class="col footer-main-column footer-third-column">
                     <ul>
                         <li class="footer-main-column-first-li">
-                           <a href="#">E Commerce & important Links  </a>
+                            <a href="#">E Commerce & important Links </a>
                         </li>
                         <li>
-                             <a href="#">Career</a>
+                            <a href="#">Career</a>
                         </li>
                         <li>
-                             <a href="#">Tender  </a>
+                            <a href="#">Tender </a>
                         </li>
                         <li>
-                             <a href="#">Related links  </a>
+                            <a href="#">Related links </a>
                         </li>
                         <li>
-                             <a href="#">Ebooks </a>
+                            <a href="#">Ebooks </a>
                         </li>
                         <li>
-                             <a href="#">Archive </a>
+                            <a href="#">Archive </a>
                         </li>
                         <li>
-                             <a href="#">Sitemap  </a>
+                            <a href="#">Sitemap </a>
                         </li>
                         <li>
-                             <a href="#">Help  </a>
+                            <a href="#">Help </a>
                         </li>
                         <li>
-                             <a href="#">Push Notification  </a>
+                            <a href="#">Push Notification </a>
                         </li>
                         <!-- <li>
                              <a href="#">Ebooks </a>
@@ -463,31 +518,31 @@
                 <div class="col footer-main-column">
                     <ul>
                         <li class="footer-main-column-first-li">
-                           <a href="#">IRDAI Head Office  </a>
+                            <a href="#">IRDAI Head Office </a>
                         </li>
                         <li>
-                             <a href="#">Career</a>
+                            <a href="#">Career</a>
                         </li>
                         <li>
-                             <a href="#">Tender  </a>
+                            <a href="#">Tender </a>
                         </li>
                         <li>
-                             <a href="#">Related links  </a>
+                            <a href="#">Related links </a>
                         </li>
                         <li>
-                             <a href="#">Ebooks </a>
+                            <a href="#">Ebooks </a>
                         </li>
                         <li>
-                             <a href="#">Archive </a>
+                            <a href="#">Archive </a>
                         </li>
                         <li>
-                             <a href="#">Sitemap  </a>
+                            <a href="#">Sitemap </a>
                         </li>
                         <li>
-                             <a href="#">Help  </a>
+                            <a href="#">Help </a>
                         </li>
                         <li>
-                             <a href="#">Push Notification  </a>
+                            <a href="#">Push Notification </a>
                         </li>
                         <!-- <li>
                              <a href="#">Ebooks </a>
@@ -498,31 +553,31 @@
                 <div class="col footer-main-column">
                     <ul>
                         <li class="footer-main-column-first-li">
-                           <a href="#">IRDAI Regional office </a>
+                            <a href="#">IRDAI Regional office </a>
                         </li>
                         <li>
-                             <a href="#">Career</a>
+                            <a href="#">Career</a>
                         </li>
                         <li>
-                             <a href="#">Tender  </a>
+                            <a href="#">Tender </a>
                         </li>
                         <li>
-                             <a href="#">Related links  </a>
+                            <a href="#">Related links </a>
                         </li>
                         <li>
-                             <a href="#">Ebooks </a>
+                            <a href="#">Ebooks </a>
                         </li>
                         <li>
-                             <a href="#">Archive </a>
+                            <a href="#">Archive </a>
                         </li>
                         <li>
-                             <a href="#">Sitemap  </a>
+                            <a href="#">Sitemap </a>
                         </li>
                         <li>
-                             <a href="#">Help  </a>
+                            <a href="#">Help </a>
                         </li>
                         <li>
-                             <a href="#">Push Notification  </a>
+                            <a href="#">Push Notification </a>
                         </li>
                         <!-- <li>
                              <a href="#">Ebooks </a>
@@ -531,11 +586,12 @@
                 </div>
             </div>
         </div>
-      
-     </footer>
-     <!-- copy right line -->
-     <div class="copyright-line  text-center">
-        <p class="mb-0">&copy; 2024 Rohini Hospital. Designed and developed by Robovolt Software Tech Pvt. Ltd. All rights reserved.</p>
+
+    </footer>
+    <!-- copy right line -->
+    <div class="copyright-line  text-center">
+        <p class="mb-0">&copy; 2024 Rohini Hospital. Designed and developed by Robovolt Software Tech Pvt. Ltd. All
+            rights reserved.</p>
     </div>
     <!-- bootsrap js file  -->
     <script src="assets/js/bootsrtap.js"></script>
