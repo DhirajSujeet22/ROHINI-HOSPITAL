@@ -389,6 +389,10 @@ body a {
     min-width: 7rem;
     font-size: 12px;
   }
+  .home_main_login .home_main_login_row .rightside-login-box .main-login-box .pop-up-main {
+    max-width: 100%;
+    max-height: 100%;
+  }
   .main-searching-box .next-or-prev .next-or-prev-left-ul {
     gap: 0rem;
     align-items: center;
@@ -397,6 +401,16 @@ body a {
   }
   .main-searching-box .next-or-prev .next-or-prev-left-ul button {
     padding: 0;
+  }
+  .home-main-footer .footer-first-column {
+    min-width: 100%;
+    font-size: 14px;
+  }
+  .home-main-footer .footer-first-column ul {
+    padding-left: 0.5rem;
+  }
+  .home-main-footer .footer-main-column ul {
+    padding-left: 0;
   }
 }
 @media only screen and (min-width: 576px) {
