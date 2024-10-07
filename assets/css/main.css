@@ -14,7 +14,7 @@ body a {
   position: sticky;
   top: 0;
   background-color: white;
-  z-index: 999;
+  z-index: 99;
 }
 .home-main-header .home-main-nav {
   display: flex;
@@ -23,9 +23,6 @@ body a {
   padding: 0.5rem 1rem;
   padding-right: 2rem;
 }
-.home-main-header .home-main-nav .nav-leftside img {
-  max-width: 300px;
-}
 .home-main-header .home-main-nav .nav-rightside .nav-rightside-ul {
   display: flex;
   align-items: center;
@@ -33,7 +30,7 @@ body a {
   gap: 1rem;
 }
 .home-main-header .home-main-nav .nav-rightside .nav-rightside-ul .btn {
-  padding: 0.4rem 0.8rem;
+  padding: 0.4rem 1.5rem;
   font-size: 14px;
   border-radius: 1rem;
   background-color: rgb(6, 88, 187);
@@ -54,141 +51,74 @@ body a {
   color: #C0143A;
 }
 
-.home_main_login {
-  background-image: url(../images/banner/new-banner-1.jpg);
+.hero-section {
+  background-image: url(../images/new-banner.png);
+  background-repeat: no-repeat;
   background-size: cover;
-  background-repeat: none;
-}
-.home_main_login .home_main_login_row {
-  padding: 3rem 0;
-  align-items: center;
-  padding-right: 1rem;
-}
-.home_main_login .home_main_login_row .leftisde-links-box {
   padding: 1rem;
 }
-.home_main_login .home_main_login_row .leftisde-links-box p {
-  font-size: 2.9rem;
-  padding-left: 0.2rem;
-  font-weight: 600;
+.hero-section .hero-leftside-main {
+  background-color: rgba(255, 255, 255, 0.146);
 }
-.home_main_login .home_main_login_row .leftisde-links-box p span {
-  color: #C0143A;
-}
-.home_main_login .home_main_login_row .leftisde-links-box .leftside-links-box-ul {
-  border-radius: 1rem;
-  background-color: rgba(245, 243, 237, 0.5647058824);
-}
-.home_main_login .home_main_login_row .leftisde-links-box .leftside-links-box-ul li {
-  padding: 0.5rem;
-}
-.home_main_login .home_main_login_row .rightside-login-box {
-  background-color: white;
-  border: 1px solid #f5f6f7;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  border-radius: 1rem;
-  text-align: center;
-  padding: 1rem 0;
-}
-.home_main_login .home_main_login_row .rightside-login-box .main-top-btns {
-  padding: 1rem 0;
-}
-.home_main_login .home_main_login_row .rightside-login-box .main-top-btns .main-top-btns-ul {
+.hero-section .hero-leftside-main .hero-leftside-main-ul {
   display: flex;
-  list-style-type: none;
-  gap: 1rem;
-  padding-left: 0;
-  margin-bottom: 0;
-}
-.home_main_login .home_main_login_row .rightside-login-box .main-top-btns .main-top-btns-ul .btn {
-  font-size: 14px;
-  padding: 8px 10px;
-  background-color: #c31335;
-  border: none;
-}
-.home_main_login .home_main_login_row .rightside-login-box .main-login-box {
-  padding: 1rem;
-  text-align: center;
-}
-.home_main_login .home_main_login_row .rightside-login-box .main-login-box .captcha-box {
-  display: flex;
-  gap: 1rem;
-  padding: 1rem 0;
-  padding-bottom: 0.2rem;
-}
-.home_main_login .home_main_login_row .rightside-login-box .main-login-box .refresh-btn {
-  align-self: center;
-  font-size: 1.5rem;
-  cursor: pointer;
-}
-.home_main_login .home_main_login_row .rightside-login-box .main-login-box .reset-password {
-  padding: 1rem 0;
-}
-.home_main_login .home_main_login_row .rightside-login-box .main-login-box .reset-password .reset-password-ul {
-  display: flex;
-  list-style-type: none;
-  padding-left: 0;
-  gap: 1rem;
-  align-items: center;
-  font-size: 14px;
-  margin-bottom: 0;
   justify-content: space-between;
-}
-.home_main_login .home_main_login_row .rightside-login-box .main-login-box .reset-password a {
-  text-decoration: none;
-  color: black;
-  font-size: 15px;
-}
-.home_main_login .home_main_login_row .rightside-login-box .main-login-box .reset-password .sign-in-btn {
-  padding: 3px 12px;
-  background-color: #c31335;
-  border: none;
-}
-.home_main_login .home_main_login_row .rightside-login-box .main-login-box .new-registor-with-box .btn {
-  width: 100% !important;
-  text-transform: uppercase;
-  background-color: #c31335;
-  border: none;
-}
-.home_main_login .home_main_login_row .rightside-login-box .main-login-box .pop-up-main {
-  max-width: 29vw;
-  max-height: 80vh;
-}
-.home_main_login .home_main_login_row .rightside-login-box .main-login-box .pop-up-main .pop-up-body {
-  padding: 1rem !important;
-  display: flex;
-  flex-direction: column;
   align-items: center;
+  list-style-type: none;
+  padding-left: 0;
 }
-.home_main_login .home_main_login_row .rightside-login-box .main-login-box .pop-up-main .pop-up-body input {
-  margin: 0.5rem 0 !important;
-  max-width: 80%;
-  padding: 0.5rem !important;
+.hero-section .hero-leftside-main .hero-leftside-main-ul .btn {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin: 0.5rem;
+  padding: 0.5rem 1.2rem;
+}
+.hero-section .hero-leftside-main .hero-main-txt {
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: 500;
+  padding: 1rem;
+  color: white;
+}
+.hero-section .hero-leftside-main .hero-main-txt span {
+  font-weight: 700;
+}
+.hero-section .hero-rightside-main {
+  background-color: rgba(255, 255, 255, 0.702);
+}
+.hero-section .hero-rightside-main .hero-rightside-main-ul {
+  list-style-type: none;
+  padding-left: 1rem;
+}
+.hero-section .hero-rightside-main .hero-rightside-main-ul li {
+  padding: 0.5rem 0;
+}
+.hero-section .hero-rightside-main .hero-rightside-main-ul li a {
+  color: #31869B;
+  font-weight: 500;
+}
+.hero-section .hero-rightside-main .hero-rightside-main-ul li a:hover {
+  color: #0D6EFD;
+  text-decoration: underline;
 }
 
 .main-searching-box {
   padding: 1rem 0rem;
-  background-color: rgba(211, 211, 211, 0.187);
+  background-color: #f7fcf9;
 }
-.main-searching-box .searching-box-main-row {
-  align-items: center;
-  padding: 2rem 0;
-}
-.main-searching-box .searching-box-main-row .searching-box-firt-left .hospital-search {
+.main-searching-box .searching-box-main-row label {
+  background-color: #DC3545;
   padding: 0.5rem 1rem;
-  border-radius: 1rem;
-  border: 1px solid grey;
-  margin-left: 0.5rem;
+  color: white;
+  border-radius: 0.5rem;
 }
-.main-searching-box .searching-box-main-row .searching-box-first-right {
-  text-align: end;
+.main-searching-box .searching-box-main-row input {
+  width: 70%;
+  border-radius: 0.5rem;
+  border: 1px solid gray;
+  padding: 0.5rem;
 }
-.main-searching-box .searching-box-main-row .searching-box-first-right .advanced-search {
-  width: 50%;
-  padding: 0.5rem 1rem;
-  border-radius: 1rem;
-  border: 1px solid grey;
-  margin-left: 0.5rem;
+.main-searching-box .searching-box-main-row input:focus {
+  outline: none;
 }
 .main-searching-box .main-list-row {
   padding: 1.5rem 0.5rem;
@@ -222,36 +152,29 @@ body a {
 }
 
 .home-main-footer {
-  padding: 2rem 0;
-  font-size: 15px;
-  background-color: #052d6c;
+  padding: 1rem;
+  background-color: #002060;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   color: white;
 }
-.home-main-footer .footer-main-column ul {
+.home-main-footer .first-col {
+  max-width: 20vw;
+}
+.home-main-footer .first-col img {
+  max-width: 300px;
+}
+.home-main-footer .footer-main-ul {
   list-style-type: none;
+  padding-left: 0;
 }
-.home-main-footer .footer-main-column ul .footer-main-column-first-li {
-  padding: 1.5rem 0;
-}
-.home-main-footer .footer-main-column a {
-  color: white;
-}
-.home-main-footer .footer-main-column .footer-main-column-first-li {
-  font-weight: 500;
-}
-.home-main-footer .footer-first-column {
-  min-width: 30%;
-}
-.home-main-footer .footer-first-column img {
-  max-width: 70px;
-  background-color: white;
-}
-.home-main-footer .footer-third-column {
-  min-width: 22%;
+.home-main-footer .footer-main-ul li {
+  padding: 0.5rem 0;
 }
 
 .copyright-line {
-  background-color: #052d6c;
+  background-color: #002060;
   color: white;
   padding: 0.2rem;
 }
@@ -275,8 +198,10 @@ body a {
   margin: 0 0.3rem;
 }
 .contact-us-main .contact-us-main-right-box {
-  border: 1px solid black;
-  padding: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.178);
+  padding: 1.5rem;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 0.5rem;
 }
 
 .offcanvas .offcanvas-body {
@@ -300,6 +225,26 @@ body a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.about-main-sec {
+  padding: 1rem 0;
+}
+.about-main-sec .main-about-heading .main-heading {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #FF0000;
+}
+.about-main-sec .common-heading {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.about-main-sec .about-sub-box {
+  padding: 0.8rem;
+}
+.about-main-sec .second-box ul {
+  list-style-type: none;
+  padding-left: 0;
 }
 
 @media only screen and (max-width: 576px) {
