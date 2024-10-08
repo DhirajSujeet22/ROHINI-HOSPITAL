@@ -21,29 +21,37 @@
 
 <body>
     <!-- modal  -->
-    <div class="modal fade registor-modal" id="registerModal" tabindex="-1" aria-labelledby="registerModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-fullscreen-sm-down pop-up-main">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="registerModalLabel">Register With Us</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+   <!-- Login Modal Structure -->
+   <div class="modal fade registor-modal" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen-sm-down pop-up-main">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="loginModalLabel">Login</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body pop-up-body">
+                <input class="form-control form-control-sm mb-3" type="text" id="loginUserId" placeholder="User ID" aria-label="User ID" required>
+                <input class="form-control form-control-sm mb-3" type="password" id="loginPassword" placeholder="Password" aria-label="Password" required>
+                
+                <div class="captcha-box mb-3">
+                    <label for="captchaInput" class="form-label">Captcha</label>
+                    <input class="form-control form-control-sm" type="text" id="captchaInput" placeholder="Enter Captcha" aria-label="Captcha" required>
+                    <input class="form-control form-control-sm mt-2" disabled type="text" value="ABCD1234" aria-label="Captcha Value" readonly>
+                    <div class="refresh-btn mt-2" style="cursor:pointer;">
+                        <span>
+                            <i class="fa-solid fa-arrows-rotate"></i> Refresh Captcha
+                        </span>
+                    </div>
                 </div>
-                <div class="modal-body pop-up-body">
-                    <input class="form-control form-control-sm mb-3" type="text" id="registerName" placeholder="Name" aria-label="Name">
-                    <input class="form-control form-control-sm mb-3" type="text" id="registerContact" placeholder="Contact No" aria-label="Contact Number">
-                    <input class="form-control form-control-sm mb-3" type="email" id="registerEmail" placeholder="Email" aria-label="Email">
-                    <input class="form-control form-control-sm mb-3" type="text" id="registerHospitalName" placeholder="Hospital Name" aria-label="Hospital Name">
-                    <input class="form-control form-control-sm mb-3" type="text" id="registerCompanyName" placeholder="Company Name" aria-label="Company Name">
-                    <input class="form-control form-control-sm mb-3" type="password" id="registerPassword" placeholder="Create Password" aria-label="Create Password">
-                    <input class="form-control form-control-sm mb-3" type="password" id="registerConfirmPassword" placeholder="Confirm Password" aria-label="Confirm Password">
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Submit</button>
-                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Login</button>
             </div>
         </div>
     </div>
+</div>
+    
     
 
 
@@ -68,45 +76,14 @@
                         </a>
                     </li>
                     <li>
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                            data-bs-target="#registerModal">
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#loginModal">
                             Login
                         </button>
-                        <!-- Modal Structure -->
-                        <div class="modal fade" id="registerModal" tabindex="-1" aria-labelledby="registerModalLabel"
-                            aria-hidden="true">
-                            <div class="modal-dialog modal-fullscreen-sm-down pop-up-main">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="registerModalLabel">Register With Us</h5>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                            aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body pop-up-body">
-                                        <input class="form-control form-control-sm " type="text" placeholder="Name "
-                                            aria-label=".form-control-sm example">
-                                        <input class="form-control form-control-sm " type="text"
-                                            placeholder="Contact No " aria-label=".form-control-sm example">
-                                        <input class="form-control form-control-sm " type="text" placeholder="Email "
-                                            aria-label=".form-control-sm example">
-                                        <input class="form-control form-control-sm " type="text"
-                                            placeholder="Hospital Name " aria-label=".form-control-sm example">
-                                        <input class="form-control form-control-sm " type="text"
-                                            placeholder="Company Name " aria-label=".form-control-sm example">
-                                        <input class="form-control form-control-sm " type="text"
-                                            placeholder="Create  Password " aria-label=".form-control-sm example">
-                                        <input class="form-control form-control-sm " type="text"
-                                            placeholder="Confirm Password  " aria-label=".form-control-sm example">
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary"
-                                            data-bs-dismiss="modal">Close</button>
-                                        <button type="button" class="btn btn-primary">Submit</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
                     </li>
+                    
+                    
+                    
+                    
 
                 </div>
             </div>
