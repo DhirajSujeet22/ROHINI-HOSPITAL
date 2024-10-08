@@ -20,7 +20,6 @@ body a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0.5rem 1rem;
   padding-right: 2rem;
 }
 .home-main-header .home-main-nav .nav-rightside .nav-rightside-ul {
@@ -39,6 +38,13 @@ body a {
 }
 .home-main-header .home-main-nav .nav-rightside .nav-rightside-ul .btn3 {
   background-color: #c31335;
+}
+
+.registor-modal {
+  border: 1px solid black;
+}
+.registor-modal .modal-body input {
+  margin: 1rem 0;
 }
 
 .marqee-main {

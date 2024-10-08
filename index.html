@@ -20,46 +20,38 @@
 </head>
 
 <body>
-    <div class="modal fade" id="registerModal" tabindex="-1" aria-labelledby="registerModalLabel"
-    aria-hidden="true">
-    <div class="modal-dialog modal-fullscreen-sm-down pop-up-main">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="registerModalLabel">Register With Us</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                    aria-label="Close"></button>
-            </div>
-            <div class="modal-body pop-up-body">
-                <input class="form-control form-control-sm " type="text" placeholder="Name "
-                    aria-label=".form-control-sm example">
-                <input class="form-control form-control-sm " type="text"
-                    placeholder="Contact No " aria-label=".form-control-sm example">
-                <input class="form-control form-control-sm " type="text" placeholder="Email "
-                    aria-label=".form-control-sm example">
-                <input class="form-control form-control-sm " type="text"
-                    placeholder="Hospital Name " aria-label=".form-control-sm example">
-                <input class="form-control form-control-sm " type="text"
-                    placeholder="Company Name " aria-label=".form-control-sm example">
-                <input class="form-control form-control-sm " type="text"
-                    placeholder="Create  Password " aria-label=".form-control-sm example">
-                <input class="form-control form-control-sm " type="text"
-                    placeholder="Confirm Password  " aria-label=".form-control-sm example">
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary"
-                    data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Submit</button>
+    <!-- modal  -->
+    <div class="modal fade registor-modal" id="registerModal" tabindex="-1" aria-labelledby="registerModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen-sm-down pop-up-main">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="registerModalLabel">Register With Us</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body pop-up-body">
+                    <input class="form-control form-control-sm mb-3" type="text" id="registerName" placeholder="Name" aria-label="Name">
+                    <input class="form-control form-control-sm mb-3" type="text" id="registerContact" placeholder="Contact No" aria-label="Contact Number">
+                    <input class="form-control form-control-sm mb-3" type="email" id="registerEmail" placeholder="Email" aria-label="Email">
+                    <input class="form-control form-control-sm mb-3" type="text" id="registerHospitalName" placeholder="Hospital Name" aria-label="Hospital Name">
+                    <input class="form-control form-control-sm mb-3" type="text" id="registerCompanyName" placeholder="Company Name" aria-label="Company Name">
+                    <input class="form-control form-control-sm mb-3" type="password" id="registerPassword" placeholder="Create Password" aria-label="Create Password">
+                    <input class="form-control form-control-sm mb-3" type="password" id="registerConfirmPassword" placeholder="Confirm Password" aria-label="Confirm Password">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Submit</button>
+                </div>
             </div>
         </div>
     </div>
-</div>
+    
 
-   
+
     <!-- home main header  -->
     <header class="home-main-header">
         <nav class="home-main-nav">
             <div class="nav-leftside">
-                <img src="assets/images/new-logo.png" alt="roheni-logo" class="img-fluid">
+                <img src="assets/images/main-full-logo.png" alt="roheni-logo" class="img-fluid">
             </div>
             <div class="nav-rightside">
                 <div class="nav-rightside-ul">
@@ -77,48 +69,48 @@
                     </li>
                     <li>
                         <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                        data-bs-target="#registerModal">
+                            data-bs-target="#registerModal">
                             Login
                         </button>
-                       <!-- Modal Structure -->
-    <div class="modal fade" id="registerModal" tabindex="-1"
-    aria-labelledby="registerModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-fullscreen-sm-down pop-up-main">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="registerModalLabel">Register With Us</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                    aria-label="Close"></button>
-            </div>
-            <div class="modal-body pop-up-body">
-                <input class="form-control form-control-sm " type="text" placeholder="Name "
-                    aria-label=".form-control-sm example">
-                <input class="form-control form-control-sm " type="text"
-                    placeholder="Contact No " aria-label=".form-control-sm example">
-                <input class="form-control form-control-sm " type="text"
-                    placeholder="Email " aria-label=".form-control-sm example">
-                <input class="form-control form-control-sm " type="text"
-                    placeholder="Hospital Name " aria-label=".form-control-sm example">
-                <input class="form-control form-control-sm " type="text"
-                    placeholder="Company Name " aria-label=".form-control-sm example">
-                <input class="form-control form-control-sm " type="text"
-                    placeholder="Create  Password " aria-label=".form-control-sm example">
-                <input class="form-control form-control-sm " type="text"
-                    placeholder="Confirm Password  " aria-label=".form-control-sm example">
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary"
-                    data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Submit</button>
-            </div>
-        </div>
-    </div>
-</div>
+                        <!-- Modal Structure -->
+                        <div class="modal fade" id="registerModal" tabindex="-1" aria-labelledby="registerModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-fullscreen-sm-down pop-up-main">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="registerModalLabel">Register With Us</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body pop-up-body">
+                                        <input class="form-control form-control-sm " type="text" placeholder="Name "
+                                            aria-label=".form-control-sm example">
+                                        <input class="form-control form-control-sm " type="text"
+                                            placeholder="Contact No " aria-label=".form-control-sm example">
+                                        <input class="form-control form-control-sm " type="text" placeholder="Email "
+                                            aria-label=".form-control-sm example">
+                                        <input class="form-control form-control-sm " type="text"
+                                            placeholder="Hospital Name " aria-label=".form-control-sm example">
+                                        <input class="form-control form-control-sm " type="text"
+                                            placeholder="Company Name " aria-label=".form-control-sm example">
+                                        <input class="form-control form-control-sm " type="text"
+                                            placeholder="Create  Password " aria-label=".form-control-sm example">
+                                        <input class="form-control form-control-sm " type="text"
+                                            placeholder="Confirm Password  " aria-label=".form-control-sm example">
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Submit</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </li>
 
                 </div>
             </div>
-            
+
             <!-- mobile view bars  -->
             <div class="nav-rightside-for-mobile">
                 <i class="bi bi-list" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop"
@@ -163,7 +155,9 @@
 
             </div>
         </nav>
+
     </header>
+
     <!-- marquee tags  -->
     <div class="container-fluid  marqee-main">
         <div class="row align-items-center">
@@ -192,9 +186,154 @@
             <div class="row">
                 <div class="col-md-6 hero-leftside-main">
                     <ul class="hero-leftside-main-ul">
-                        <li><a href="#"><button type="button" class="btn btn-primary ">INSURANCE/TPA LOGIN</button></a>
+                        <li class="nav-item">
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#insuranceCompanyModal">
+                                INSURANCE/TPA LOGIN
+                            </button>
                         </li>
-                        <li><a href="#"><button type="button" class="btn btn-primary">HOSPITAL REQUEST</button></a></li>
+                        
+                        <!-- Insurance/TPA Login Modal -->
+                        <div class="modal fade" id="insuranceCompanyModal" tabindex="-1" aria-labelledby="insuranceCompanyModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="insuranceCompanyModalLabel">Insurance Company List</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <!-- Insurance Company Form -->
+                                        <form id="insuranceCompanyForm">
+                                            <div class="mb-3">
+                                                <label for="insuranceCompanyName" class="form-label">Insurance Company Name</label>
+                                                <input type="text" class="form-control" id="insuranceCompanyName" placeholder="Enter company name">
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="insuranceCompanyEmail" class="form-label">Email ID</label>
+                                                <input type="email" class="form-control" id="insuranceCompanyEmail" placeholder="Enter email ID">
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="insuranceCompanyPhone" class="form-label">Phone Number</label>
+                                                <input type="tel" class="form-control" id="insuranceCompanyPhone" placeholder="Enter phone number">
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="insuranceContactPerson" class="form-label">Contact Person</label>
+                                                <input type="text" class="form-control" id="insuranceContactPerson" placeholder="Enter contact person name">
+                                            </div>
+                                            <button type="button" class="btn btn-primary" id="submitInsuranceForm">Submit</button>
+                                        </form>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- OTP Verification Modal -->
+                        <div class="modal fade" id="otpVerificationModal" tabindex="-1" aria-labelledby="otpVerificationModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="otpVerificationModalLabel">Enter OTP</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form id="otpForm">
+                                            <div class="mb-3">
+                                                <label for="otpCode" class="form-label">OTP Code</label>
+                                                <input type="text" class="form-control" id="otpCode" placeholder="Enter OTP sent to your email">
+                                            </div>
+                                            <button type="button" class="btn btn-primary" id="verifyOtp">Verify OTP</button>
+                                        </form>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <script>
+                            // Show OTP modal on form submit
+                            document.getElementById('submitInsuranceForm').addEventListener('click', function () {
+                                // Close the insurance modal
+                                var insuranceModal = new bootstrap.Modal(document.getElementById('insuranceCompanyModal'));
+                                insuranceModal.hide();
+                        
+                                // Open the OTP verification modal
+                                var otpModal = new bootstrap.Modal(document.getElementById('otpVerificationModal'));
+                                otpModal.show();
+                            });
+                        
+                            // OTP Verification handler
+                            document.getElementById('verifyOtp').addEventListener('click', function () {
+                                var otpCode = document.getElementById('otpCode').value;
+                        
+                                if (otpCode === '123456') {  // Placeholder OTP validation logic
+                                    alert('OTP verified successfully!');
+                                    var otpModal = new bootstrap.Modal(document.getElementById('otpVerificationModal'));
+                                    otpModal.hide();
+                                } else {
+                                    alert('Invalid OTP. Please try again.');
+                                }
+                            });
+                        </script>
+                        
+
+
+                      
+                        <li>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#hospitalRequestModal">
+                                HOSPITAL REQUEST
+                            </button>
+                        </li>
+                          <!-- hospitla request pop up  -->
+                        <div class="modal fade" id="hospitalRequestModal" tabindex="-1"
+                            aria-labelledby="hospitalRequestModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="hospitalRequestModalLabel">Hospital Request</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <!-- Modal content goes here -->
+                                        <form>
+                                            <div class="mb-3">
+                                                <label for="hospitalName" class="form-label">Hospital Name</label>
+                                                <input type="text" class="form-control" id="hospitalName"
+                                                    placeholder="Enter hospital name">
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="hospitalEmail" class="form-label">Email ID</label>
+                                                <input type="email" class="form-control" id="hospitalEmail"
+                                                    placeholder="Enter email ID">
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="hospitalPhone" class="form-label">Phone Number</label>
+                                                <input type="tel" class="form-control" id="hospitalPhone"
+                                                    placeholder="Enter phone number">
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="hospitalContactPerson" class="form-label">Contact
+                                                    Person</label>
+                                                <input type="text" class="form-control" id="hospitalContactPerson"
+                                                    placeholder="Enter contact person name">
+                                            </div>
+                                            <button type="submit" class="btn btn-primary">Submit Request</button>
+                                        </form>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
                     </ul>
                     <p class="hero-main-txt">
                         Best

@@ -24,16 +24,10 @@ body {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 0.5rem 1rem;
+        // padding: 0.5rem 1rem;
         padding-right: 2rem;
 
-        // .nav-leftside {
-        //     // img {
-        //     //     max-width: 300px;
-
-        //     // }
-        // }
-
+       
         .nav-rightside {
             .nav-rightside-ul {
                 display: flex;
@@ -54,6 +48,15 @@ body {
                     background-color: #c31335;
                 }
             }
+        }
+    }
+}
+//login main pop up 
+.registor-modal{
+    border: 1px solid black;
+    .modal-body{
+        input{
+            margin: 1rem 0;
         }
     }
 }
