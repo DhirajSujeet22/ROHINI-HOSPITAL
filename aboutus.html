@@ -20,40 +20,41 @@
 </head>
 
 <body>
-    <!-- home main header  -->
-    <header class="home-main-header">
+     <!-- home main header  -->
+     <header class="home-main-header">
         <nav class="home-main-nav">
             <div class="nav-leftside">
-                <a href="index.html">
-                    <img src="assets/images/main-full-logo.png" alt="roheni-logo" class="img-fluid">
-
-                </a>
+                <a href="index.html"> <img src="assets/images/main-full-logo.png" alt="roheni-logo"
+                        class="img-fluid"></a>
             </div>
             <div class="nav-rightside">
                 <div class="nav-rightside-ul">
                     <li><button type="button" class="btn btn-primary">Home</button></li>
                     <li>
-                        <a href="aboutus.html">
-                            <button type="button" class="btn btn-primary">About us </button>
-                        </a>
+
+                        <button type="button" class="btn btn-primary"><a href="aboutus.html">About us </a></button>
+
                     </li>
                     <li>
-                        <a href="contactus.html">
 
-                            <button type="button" class="btn btn-primary">Contact us </button>
-                        </a>
+
+                        <button type="button" class="btn btn-primary"> <a href="contactus.html">Contact us </a></button>
+
                     </li>
                     <li>
-                        <a href="#">
-
-                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                                data-bs-target="#exampleModal" data-bs-whatever="@mdo">Login </button>
-
-
-                        </a>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#loginModal">
+                            Login
+                        </button>
                     </li>
+
+
+
+
+
                 </div>
             </div>
+
             <!-- mobile view bars  -->
             <div class="nav-rightside-for-mobile">
                 <i class="bi bi-list" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop"
@@ -65,26 +66,27 @@
                     <div class="offcanvas-header">
                         <h5 class="offcanvas-title" id="offcanvasTopLabel">
                             <!-- main logo for offcanvas  -->
-                            <img src="assets/images/rohini-hospital.png" class="img-fluid" width="150px" alt="">
+                            <img src="assets/images/main-full-logo.png" class="img-fluid" alt="">
                         </h5>
                         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
                     <div class="offcanvas-body">
                         <ul class="offcanvas-body-main-ul">
-                            <li><a href="#home">Home </a></li>
-                            <li><a href="#Exclude hospital">Exclude Hospital </a></li>
-                            <li><a href="#contactus">Contact Us</a></li>
+                            <li><a href="index.html">Home </a></li>
+                            <li><a href="aboutus.html">About Us </a></li>
+                            <li><a href="contactus.html">Contact Us</a></li>
                             <li><a href="#Newriegistor">New Registor with Us </a></li>
-                            <li><a href="#How to Registor">How To Registor </a></li>
-                            <li><a href="#Hospital request">Hospital Request </a></li>
+                            <!-- <li><a href="#How to Registor">How To Registor </a></li> -->
+                            <li><a href="#Hospital request" data-bs-toggle="modal"
+                                data-bs-target="#hospitalRequestModal">Hospital Request </a></li>
                         </ul>
                         <ul class="offcanvas-body-main-ul-2">
                             <li>
-                                <a href="#login"><button type="button" class="btn btn-outline-primary">Sign
-                                        in</button></a>
+                                <a href="#login"><button type="button" class="btn btn-outline-primary" data-bs-toggle="modal"
+                                    data-bs-target="#loginModal">Login </button></a>
                             </li>
-                            <li><a href="#regit"><button type="button" class="btn btn-outline-primary">Registor Now
-                                    </button></a></li>
+                            <!-- <li><a href="#regit"><button type="button" class="btn btn-outline-primary">Registor Now
+                                    </button></a></li> -->
                         </ul>
                         <div class="request-a-call-bk">
                             <button type="button" class="btn btn-outline-primary">Request a Call Back
@@ -96,9 +98,9 @@
 
 
 
-
             </div>
         </nav>
+
     </header>
     <!-- marquee tags  -->
     <div class="container-fluid  marqee-main">
