@@ -25,8 +25,9 @@ body {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 0rem  2.5rem;
+        padding: 0rem 2.5rem;
         // padding-right: 2rem;
+        padding-left: 5rem;
 
 
         .nav-rightside {
@@ -139,6 +140,7 @@ body {
     }
 }
 
+
 //main searching box
 
 
@@ -149,6 +151,7 @@ body {
 .main-searching-box {
     padding: 1rem 0rem;
     background-color: #f7fcf9;
+    text-align: center;
 
     .searching-box-main-row {
         label {
@@ -163,7 +166,7 @@ body {
             border-radius: 0.5rem;
             border: 1px solid gray;
             padding: 0.5rem;
-            margin-left: 2rem;
+            margin-left: 3rem;
 
             &:focus {
                 outline: none;
@@ -274,14 +277,18 @@ body {
     .contact-us-main-right-box {
         border: 1px solid rgba(0, 0, 0, 0.178);
         padding: 1.5rem;
-        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-        border-radius: 0.5rem;
+        // box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        border-radius: 10px;
 
     }
 }
 
 //offcanvas css 
 .offcanvas {
+    .offcanvas-header {
+        padding: 0.5rem;
+    }
+
     .offcanvas-body {
         padding-top: 0;
 
@@ -380,6 +387,7 @@ body {
     }
 
     .main-searching-box {
+
         .main-list-row {
             overflow: scroll;
             padding: 0;
@@ -424,7 +432,8 @@ body {
     }
 
     .searching-box-main-row {
-        text-align: center;
+        padding-left: 3px !important;
+        text-align: start;
 
         .searching-box-firt-left {
             padding: 0.5rem;
@@ -459,13 +468,13 @@ body {
     }
 
     .main-searching-box .main-list-row .main-table-column-heading {
-        padding:0;
+        padding: 0;
         min-width: 7rem;
         font-size: 12px;
         padding-bottom: 0.8rem;
 
     }
-  
+
 
 
     .home_main_login .home_main_login_row .rightside-login-box .main-login-box .pop-up-main {
@@ -543,7 +552,7 @@ body {
     }
 
     .main-searching-box {
-      
+
 
         input {
             font-size: 12px;
@@ -590,9 +599,9 @@ body {
     }
 
 
-    .table{
-        .serial-no-col{
-            max-width:none;
+    .table {
+        .serial-no-col {
+            max-width: none;
             min-width: 4rem !important;
             background-color: rgb(6, 88, 187);
             border-right: 2px solid white;
@@ -600,37 +609,93 @@ body {
             color: white;
             font-weight: 400;
         }
+
         tr {
-            > :first-child { 
-                position: sticky; 
-                left: 0; 
-               
-                z-index: 10; 
-            }
-            > :nth-child(2){
+            > :first-child {
                 position: sticky;
-                left: 4rem; 
-                z-index: 10; 
+                left: 0;
+
+                z-index: 10;
+            }
+
+            > :nth-child(2) {
+                position: sticky;
+                left: 4rem;
+                z-index: 10;
 
             }
         }
-        
-       
+
+
     }
-   
-    
+
+    .about-main-sec .main-about-heading .main-heading {
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+
+    .about-main-sec .about-sub-box {
+        padding: 0.5rem 0.3rem;
+    }
+
+    .about-main-sec .common-heading {
+        font-size: 1rem;
+    }
+
+    .about-sub-box {
+        p {
+            font-size: 14px;
+        }
+        li{
+            font-size: 14px;
+            padding: 4px 0;
+        }
+    }
+    .contact-us-main{
+        padding: 0;
+    }
+    .contact-us-main .contact-us-main-left-box{
+        padding: 1rem 0.5rem;
+        padding-right: 0;
+    }
+    .contact-us-main .contact-us-main-left-box .contact-us-left-ul{
+        padding: 0.5rem ;
+        li{
+            font-size: 14px;
+        }
+    }
+
+
 
 
 
 }
 
-@media only screen and (min-width:576px) {
+@media only screen and (min-width:769px) {
     .nav-rightside-for-mobile {
         display: none;
     }
 }
 
+// FOR TABLEST VIEW
 @media only screen and (min-width: 576px) and (max-width: 768px) {
+    .home-main-header {
+        .home-main-nav {
+            margin-left: 2rem;
+
+            .nav-leftside {
+                img {
+                    max-width: 500px;
+                }
+            }
+
+            .nav-rightside {
+                display: none;
+            }
+        }
+    }
+
+
     .main-searching-box .main-list-row {
         overflow-x: auto;
         /* Allow horizontal scrolling */
@@ -644,12 +709,53 @@ body {
     }
 
     .home-main-header .home-main-nav {
-        padding-right: 0;
+        padding: 0rem 1rem;
+
     }
 
     .home-main-header .home-main-nav .nav-rightside .nav-rightside-ul .btn {
         padding: 8px 20px;
         font-size: 14px;
+    }
+
+    .nav-rightside-for-mobile {
+        i {
+            font-size: 1.5rem;
+            color: black;
+        }
+    }
+
+    // .main-searching-box{
+    //     padding: 0rem 1rem !important;
+    // }
+    .main-searching-box .searching-box-main-row input {
+        width: 60%;
+        margin-left: 2.9rem;
+        font-size: 14px;
+
+    }
+
+    .main-searching-box .searching-box-main-row label {
+        font-size: 14px;
+        // padding: 0.3rem;
+    }
+
+    .main-searching-box .main-list-row .main-table-column-heading {
+        min-width: 9rem;
+        padding-bottom: 1.2rem;
+        font-size: 15px;
+
+    }
+
+    .home-main-footer .first-col {
+        max-width: 40vw;
+    }
+
+    .offcanvas {
+        height: 100% !important;
+        width: 50%;
+        margin: 0 auto;
+        margin-right: 0;
     }
 }
 
@@ -671,3 +777,35 @@ body {
         padding: 0.5rem;
     }
 }
+
+@media only screen and (min-width:768px) and (max-width:1024px) {
+    .home-main-header .home-main-nav {
+        padding: 0;
+        gap: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .home-main-header .home-main-nav .nav-rightside .nav-rightside-ul .btn {
+        min-width: 6rem;
+        padding: 5px;
+
+    }
+
+    .main-searching-box .searching-box-main-row input {
+        margin-left: 0;
+    }
+
+    .main-searching-box .main-list-row .main-table-column-heading {
+        min-width: 10rem;
+        padding-bottom: 1rem;
+    }
+
+    .main-searching-box .main-list-row {
+        overflow-x: auto;
+
+    }
+
+}
+
+@media only screen and (min-width:992px) and (max-width:1024px) {}

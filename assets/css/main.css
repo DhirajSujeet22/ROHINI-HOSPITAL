@@ -22,6 +22,7 @@ body a {
   align-items: center;
   justify-content: space-between;
   padding: 0rem 2.5rem;
+  padding-left: 5rem;
 }
 .home-main-header .home-main-nav .nav-rightside .nav-rightside-ul {
   display: flex;
@@ -111,6 +112,7 @@ body a {
 .main-searching-box {
   padding: 1rem 0rem;
   background-color: #f7fcf9;
+  text-align: center;
 }
 .main-searching-box .searching-box-main-row label {
   background-color: #DC3545;
@@ -123,7 +125,7 @@ body a {
   border-radius: 0.5rem;
   border: 1px solid gray;
   padding: 0.5rem;
-  margin-left: 2rem;
+  margin-left: 3rem;
 }
 .main-searching-box .searching-box-main-row input:focus {
   outline: none;
@@ -208,10 +210,12 @@ body a {
 .contact-us-main .contact-us-main-right-box {
   border: 1px solid rgba(0, 0, 0, 0.178);
   padding: 1.5rem;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  border-radius: 0.5rem;
+  border-radius: 10px;
 }
 
+.offcanvas .offcanvas-header {
+  padding: 0.5rem;
+}
 .offcanvas .offcanvas-body {
   padding-top: 0;
 }
@@ -307,7 +311,8 @@ body a {
     justify-content: center;
   }
   .searching-box-main-row {
-    text-align: center;
+    padding-left: 3px !important;
+    text-align: start;
   }
   .searching-box-main-row .searching-box-firt-left {
     padding: 0.5rem;
@@ -446,13 +451,52 @@ body a {
     left: 4rem;
     z-index: 10;
   }
+  .about-main-sec .main-about-heading .main-heading {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  .about-main-sec .about-sub-box {
+    padding: 0.5rem 0.3rem;
+  }
+  .about-main-sec .common-heading {
+    font-size: 1rem;
+  }
+  .about-sub-box p {
+    font-size: 14px;
+  }
+  .about-sub-box li {
+    font-size: 14px;
+    padding: 4px 0;
+  }
+  .contact-us-main {
+    padding: 0;
+  }
+  .contact-us-main .contact-us-main-left-box {
+    padding: 1rem 0.5rem;
+    padding-right: 0;
+  }
+  .contact-us-main .contact-us-main-left-box .contact-us-left-ul {
+    padding: 0.5rem;
+  }
+  .contact-us-main .contact-us-main-left-box .contact-us-left-ul li {
+    font-size: 14px;
+  }
 }
-@media only screen and (min-width: 576px) {
+@media only screen and (min-width: 769px) {
   .nav-rightside-for-mobile {
     display: none;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 768px) {
+  .home-main-header .home-main-nav {
+    margin-left: 2rem;
+  }
+  .home-main-header .home-main-nav .nav-leftside img {
+    max-width: 500px;
+  }
+  .home-main-header .home-main-nav .nav-rightside {
+    display: none;
+  }
   .main-searching-box .main-list-row {
     overflow-x: auto;
     /* Allow horizontal scrolling */
@@ -464,11 +508,37 @@ body a {
     /* Set a minimum width for the table */
   }
   .home-main-header .home-main-nav {
-    padding-right: 0;
+    padding: 0rem 1rem;
   }
   .home-main-header .home-main-nav .nav-rightside .nav-rightside-ul .btn {
     padding: 8px 20px;
     font-size: 14px;
+  }
+  .nav-rightside-for-mobile i {
+    font-size: 1.5rem;
+    color: black;
+  }
+  .main-searching-box .searching-box-main-row input {
+    width: 60%;
+    margin-left: 2.9rem;
+    font-size: 14px;
+  }
+  .main-searching-box .searching-box-main-row label {
+    font-size: 14px;
+  }
+  .main-searching-box .main-list-row .main-table-column-heading {
+    min-width: 9rem;
+    padding-bottom: 1.2rem;
+    font-size: 15px;
+  }
+  .home-main-footer .first-col {
+    max-width: 40vw;
+  }
+  .offcanvas {
+    height: 100% !important;
+    width: 50%;
+    margin: 0 auto;
+    margin-right: 0;
   }
 }
 @media only screen and (min-width: 375px) and (max-width: 576px) {
@@ -478,5 +548,27 @@ body a {
   }
   .hero-section .hero-leftside-main .hero-main-txt {
     padding: 0.5rem;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .home-main-header .home-main-nav {
+    padding: 0;
+    gap: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .home-main-header .home-main-nav .nav-rightside .nav-rightside-ul .btn {
+    min-width: 6rem;
+    padding: 5px;
+  }
+  .main-searching-box .searching-box-main-row input {
+    margin-left: 0;
+  }
+  .main-searching-box .main-list-row .main-table-column-heading {
+    min-width: 10rem;
+    padding-bottom: 1rem;
+  }
+  .main-searching-box .main-list-row {
+    overflow-x: auto;
   }
 }/*# sourceMappingURL=main.css.map */
