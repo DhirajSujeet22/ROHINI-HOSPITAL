@@ -11,7 +11,7 @@
     <!-- bootsrtap css file  -->
     <link rel="stylesheet" href="assets/css/bootstrap.css">
     <!-- favicon  -->
-    <link rel="icon" href="assets/images/favicon.png">
+    <link rel="icon" href="assets/images/new-favicon.png">
     <!-- bootsrap icon -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <!-- font awesome cdn -->
@@ -115,15 +115,15 @@
                             <li><a href="index.html">Home </a></li>
                             <li><a href="aboutus.html">About Us </a></li>
                             <li><a href="contactus.html">Contact Us</a></li>
-                            <li><a href="#Newriegistor">New Registor with Us </a></li>
+                            <!-- <li><a href="#Newriegistor">New Registor with Us </a></li> -->
                             <!-- <li><a href="#How to Registor">How To Registor </a></li> -->
                             <li><a href="#Hospital request" data-bs-toggle="modal"
-                                data-bs-target="#hospitalRequestModal">Hospital Request </a></li>
+                                    data-bs-target="#hospitalRequestModal">Hospital Request </a></li>
                         </ul>
                         <ul class="offcanvas-body-main-ul-2">
                             <li>
-                                <a href="#login"><button type="button" class="btn btn-outline-primary" data-bs-toggle="modal"
-                                    data-bs-target="#loginModal">Login </button></a>
+                                <a href="#login"><button type="button" class="btn btn-outline-primary"
+                                        data-bs-toggle="modal" data-bs-target="#loginModal">Login </button></a>
                             </li>
                             <!-- <li><a href="#regit"><button type="button" class="btn btn-outline-primary">Registor Now
                                     </button></a></li> -->
@@ -174,7 +174,7 @@
                         <li class="nav-item">
                             <button type="button" class="btn btn-primary" data-bs-toggle="modal"
                                 data-bs-target="#insuranceCompanyModal">
-                                INSURANCE/TPA LOGIN
+                                TPA / Insurance Company  Registraion 
                             </button>
                         </li>
 
@@ -374,10 +374,12 @@
             <div class="row searching-box-main-row justify-content-center">
                 <div class="col-12 main-search-box p-0">
 
-                    <label for="hospital-serch"> SEARCH EXCLUDED HOSPITAL LIST </label>
+                    <label for="hospital-serch">SEARCH EXCLUDED HOSPITAL </label>
                     <span>
+                        <span class="input_search_icon"><i class="bi bi-search"></i></span>
                         <input type="text" id="hospital-serch"
                             placeholder=" SEARCH HOSPTAL NAME/EMAIL ID/CONTACT NUMBER/DISTRICT/PINCODE/STATE/TPA/INSURANCE ">
+                          
                     </span>
 
                 </div>
@@ -527,18 +529,21 @@
     </section>
     <!-- footer -->
     <footer class="home-main-footer">
-        <div class="footer-main-col first-col">
-            <img src="assets/images/footer-1-img.png" class="img-fluid" alt="">
-        </div>
         <div class="footer-main-col ">
             <ul class="footer-main-ul">
-                <li>EXCLUDED HOSPITAL BY </li>
-                <li>INSURANCE</li>
-                <li>INFORMATION</li>
-                <li>BUREAU OF INDIA</li>
+                <li><span>E</span>XCLUDED HOSPITAL BY </li>
+                <li><span>I</span>NSURANCE</li>
+                <li><span>I</span>NFORMATION</li>
+                <li><span>B</span>UREAU OF INDIA</li>
             </ul>
         </div>
-        <div class="footer-main-col">
+        <!-- <div class="footer-main-col first-col">
+            <img src="assets/images/footer-1-img.png" class="img-fluid" alt="">
+        </div> -->
+
+        <div class="footer-main-col text-center">
+            <img src="assets/images/footer-1-img.png" class="img-fluid" alt="">
+            <br>
             <img src="assets/images/footer-eiib.png" class="img-fluid" alt="">
         </div>
     </footer>

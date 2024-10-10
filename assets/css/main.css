@@ -114,6 +114,10 @@ body a {
   background-color: #f7fcf9;
   text-align: center;
 }
+.main-searching-box .searching-box-main-row .input_search_icon {
+  position: relative;
+  left: 5rem;
+}
 .main-searching-box .searching-box-main-row label {
   background-color: #DC3545;
   padding: 0.5rem 1rem;
@@ -126,12 +130,19 @@ body a {
   border: 1px solid gray;
   padding: 0.5rem;
   margin-left: 3rem;
+  padding-left: 1.8rem;
 }
 .main-searching-box .searching-box-main-row input:focus {
   outline: none;
 }
 .main-searching-box .main-list-row {
   padding: 1.5rem 0.5rem;
+}
+.main-searching-box .main-list-row thead tr > :first-child {
+  background-color: #0658BB;
+  color: white;
+  border-radius: 0.5rem;
+  border-right: 2px solid white;
 }
 .main-searching-box .main-list-row .main-table-column-heading {
   background-color: rgb(6, 88, 187);
@@ -179,6 +190,26 @@ body a {
   list-style-type: none;
   padding-left: 0;
 }
+.home-main-footer .footer-main-ul > :first-child span {
+  color: #31869B;
+  font-weight: 500;
+  margin: 0 2px;
+}
+.home-main-footer .footer-main-ul > :nth-child(2) span {
+  color: #FF0000;
+  font-weight: 500;
+  margin: 0 2px;
+}
+.home-main-footer .footer-main-ul > :nth-child(3) span {
+  color: #FF0000;
+  font-weight: 500;
+  margin: 0 2px;
+}
+.home-main-footer .footer-main-ul > :last-child span {
+  color: #31869B;
+  font-weight: 500;
+  margin: 0 2px;
+}
 .home-main-footer .footer-main-ul li {
   padding: 0.5rem 0;
 }
@@ -187,6 +218,9 @@ body a {
   background-color: #002060;
   color: white;
   padding: 0.2rem;
+}
+.copyright-line span {
+  color: #FF0000;
 }
 
 .contact-us-main {
@@ -215,6 +249,9 @@ body a {
 
 .offcanvas .offcanvas-header {
   padding: 0.5rem;
+}
+.offcanvas .offcanvas-header img {
+  min-height: 65px;
 }
 .offcanvas .offcanvas-body {
   padding-top: 0;
@@ -245,7 +282,7 @@ body a {
 .about-main-sec .main-about-heading .main-heading {
   font-size: 2.5rem;
   font-weight: 600;
-  color: #FF0000;
+  color: #31869B;
 }
 .about-main-sec .common-heading {
   font-size: 1.2rem;
@@ -277,6 +314,9 @@ body a {
   }
   .home_main_login .home_main_login_row .leftisde-links-box p {
     font-size: 35px;
+  }
+  .main-searching-box {
+    padding: 1rem 0.5rem 1rem 1rem;
   }
   .main-searching-box .main-list-row {
     overflow: scroll;
@@ -374,7 +414,7 @@ body a {
     font-size: 12px;
   }
   .hero-section .hero-leftside-main {
-    padding: 5px;
+    padding: 18px;
     border-radius: 1rem;
     background-color: rgba(255, 255, 255, 0.07);
   }
@@ -392,7 +432,7 @@ body a {
   }
   .hero-section .hero-rightside-main {
     background-color: transparent;
-    padding-top: 4rem;
+    padding-top: 1.5rem;
   }
   .hero-section .hero-rightside-main .hero-rightside-main-ul li {
     font-size: 13px;

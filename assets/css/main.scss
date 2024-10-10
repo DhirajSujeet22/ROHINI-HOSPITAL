@@ -154,6 +154,10 @@ body {
     text-align: center;
 
     .searching-box-main-row {
+        .input_search_icon{
+            position: relative;
+            left: 5rem;
+        }
         label {
             background-color: #DC3545;
             padding: 0.5rem 1rem;
@@ -167,6 +171,7 @@ body {
             border: 1px solid gray;
             padding: 0.5rem;
             margin-left: 3rem;
+            padding-left: 1.8rem;
 
             &:focus {
                 outline: none;
@@ -176,6 +181,17 @@ body {
 
     .main-list-row {
         padding: 1.5rem 0.5rem;
+
+        thead {
+            tr {
+                >:first-child {
+                    background-color: #0658BB;
+                    color: white;
+                    border-radius: 0.5rem;
+                    border-right: 2px solid white;
+                }
+            }
+        }
 
         .main-table-column-heading {
             background-color: rgb(6, 88, 187);
@@ -238,6 +254,38 @@ body {
         list-style-type: none;
         padding-left: 0;
 
+        >:first-child {
+            span {
+                color: #31869B;
+                font-weight: 500;
+                margin: 0 2px;
+            }
+        }
+
+        >:nth-child(2) {
+            span {
+                color: #FF0000;
+                font-weight: 500;
+                margin: 0 2px;
+            }
+        }
+
+        >:nth-child(3) {
+            span {
+                color: #FF0000;
+                font-weight: 500;
+                margin: 0 2px;
+            }
+        }
+
+        >:last-child {
+            span {
+                color: #31869B;
+                font-weight: 500;
+                margin: 0 2px;
+            }
+        }
+
         li {
             padding: 0.5rem 0;
         }
@@ -248,6 +296,10 @@ body {
     background-color: #002060;
     color: white;
     padding: 0.2rem;
+
+    span {
+        color: #FF0000;
+    }
 }
 
 //contcat us page css
@@ -287,6 +339,10 @@ body {
 .offcanvas {
     .offcanvas-header {
         padding: 0.5rem;
+
+        img {
+            min-height: 65px;
+        }
     }
 
     .offcanvas-body {
@@ -327,7 +383,7 @@ body {
         .main-heading {
             font-size: 2.5rem;
             font-weight: 600;
-            color: #FF0000;
+            color: #31869B;
         }
     }
 
@@ -387,6 +443,7 @@ body {
     }
 
     .main-searching-box {
+        padding: 1rem 0.5rem 1rem 1rem;
 
         .main-list-row {
             overflow: scroll;
@@ -436,6 +493,8 @@ body {
         text-align: start;
 
         .searching-box-firt-left {
+
+          
             padding: 0.5rem;
 
             label {
@@ -447,6 +506,8 @@ body {
             .hospital-search {
                 width: 100%;
                 margin-left: 0rem !important;
+
+                
             }
         }
 
@@ -518,7 +579,7 @@ body {
     }
 
     .hero-section .hero-leftside-main {
-        padding: 5px;
+        padding: 18px;
         border-radius: 1rem;
         background-color: rgb(255 255 255 / 7%);
     }
@@ -540,7 +601,7 @@ body {
 
     .hero-section .hero-rightside-main {
         background-color: transparent;
-        padding-top: 4rem;
+        padding-top: 1.5rem;
     }
 
     .hero-section .hero-rightside-main .hero-rightside-main-ul li {
@@ -646,21 +707,26 @@ body {
         p {
             font-size: 14px;
         }
-        li{
+
+        li {
             font-size: 14px;
             padding: 4px 0;
         }
     }
-    .contact-us-main{
+
+    .contact-us-main {
         padding: 0;
     }
-    .contact-us-main .contact-us-main-left-box{
+
+    .contact-us-main .contact-us-main-left-box {
         padding: 1rem 0.5rem;
         padding-right: 0;
     }
-    .contact-us-main .contact-us-main-left-box .contact-us-left-ul{
-        padding: 0.5rem ;
-        li{
+
+    .contact-us-main .contact-us-main-left-box .contact-us-left-ul {
+        padding: 0.5rem;
+
+        li {
             font-size: 14px;
         }
     }
